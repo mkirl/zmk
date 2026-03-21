@@ -80,9 +80,9 @@
             display-name = "Mouse";
             bindings = <
 &trans     &trans     &trans     &trans     &trans    &trans  &trans    &trans     &trans    &trans
-&mkp LCLK  &mkp RCLK  &mkp MCLK  &mkp MB4   &mkp MB5  &trans  &kp RSFT  &kp RCTRL  &kp RALT  &kp RGUI
+&mkp RCLK  &mkp MCLK  &mkp LCLK  &mkp MB4   &mkp MB5  &trans  &kp RSFT  &kp RCTRL  &kp RALT  &kp RGUI
 &trans     &trans     &trans     &trans     &trans    &trans  &trans    &trans     &trans    &trans
-           &mkp LCLK  &mkp RCLK  &mkp MCLK            &trans  &trans    &trans
+           &mkp RCLK  &mkp MCLK  &mkp LCLK            &trans  &trans    &trans
             >;
         };
 
