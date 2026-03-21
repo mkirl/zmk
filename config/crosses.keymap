@@ -61,7 +61,7 @@
             display-name = "Nav";
             bindings = <
 &trans     &trans    &trans     &trans    &trans    &kp PG_UP  &kp HOME   &kp UP     &kp END    &kp INS
-&kp LGUI   &kp LALT  &kp LCTRL  &kp LSFT  &trans    &kp PG_DN  &kp LEFT   &kp DOWN   &kp RIGHT  &kp BSPC
+&kp LGUI   &kp LALT  &kp LCTRL  &kp LSFT  &trans    &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp BSPC
 &trans     &trans    &trans     &trans    &trans    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)
                      &trans     &trans    &trans    &kp RET    &kp BSPC   &kp DEL
             >;
@@ -103,7 +103,7 @@
 &trans  &trans  &trans  &trans  &trans  &as LBRC LBKT  &as CARET N6   &as PRCNT N5  &as DLLR N4  &as PIPE BSLH
 &trans  &trans  &trans  &trans  &trans  &as RBRC RBKT  &as LBRC LBKT  &as RBRC RBKT &as LPAR N9  &as RPAR N0
 &trans  &trans  &trans  &trans  &trans  &kp MINUS      &as EXCL N1    &as AT N2     &as HASH N3  &as ASTRK N8
-                &trans  &trans  &trans  &trans         &trans         &trans
+                &trans  &trans  &trans  &kp TILDE      &as DQT SQT    &as AMPS N7
             >;
         };
 
