@@ -53,7 +53,7 @@
 &kp Q         &kp W         &kp E          &kp R          &kp T        &kp Y        &kp U          &kp I          &kp O         &kp P
 &hml LGUI A   &hml LALT S   &hml LCTRL D   &hml LSFT F    &kp G        &kp H        &hmr RSFT J    &hmr RCTRL K   &hmr RALT L   &hmr RGUI SQT
 &kp Z         &kp X         &kp C          &kp V          &kp B        &kp N        &kp M          &kp COMMA      &kp DOT       &kp FSLH
-                            &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB  &lt SYM RET  &lt NUM BSPC   &lt FUN DEL
+                            &lt MEDIA ESC  &lt NAV BSPC  &lt SYM TAB   &lt MOUSE RET  &lt NUM SPACE  &lt FUN DEL
             >;
         };
 
@@ -100,10 +100,10 @@
         sym_layer {
             display-name = "Sym";
             bindings = <
-&kp LBRC   &kp AMPS  &kp ASTRK  &kp LPAR   &kp RBRC    &trans  &trans    &trans     &trans    &trans
-&kp COLON  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS    &trans  &kp RSFT  &kp RCTRL  &kp RALT  &kp RGUI
-&kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp PIPE    &trans  &trans    &trans     &trans    &trans
-                     &kp LPAR   &kp RPAR   &kp UNDER   &trans  &trans    &trans
+&trans     &trans    &trans     &trans    &trans    &kp LBRC   &kp AMPS  &kp ASTRK  &kp LPAR   &kp RBRC
+&kp LGUI   &kp LALT  &kp LCTRL  &kp LSFT  &trans    &kp COLON  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS
+&trans     &trans    &trans     &trans    &trans    &kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp PIPE
+                     &trans     &trans    &trans    &kp LPAR   &kp RPAR  &kp UNDER
             >;
         };
 
