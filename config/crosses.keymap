@@ -53,7 +53,7 @@
 &kp Q         &kp W         &kp E          &kp R          &kp T        &kp Y        &kp U          &kp I          &kp O         &kp P
 &hml LGUI A   &hml LALT S   &hml LCTRL D   &hml LSFT F    &kp G        &kp H        &hmr RSFT J    &hmr RCTRL K   &hmr RALT L   &hmr RGUI SQT
 &kp Z         &kp X         &kp C          &kp V          &kp B        &kp N        &kp M          &kp COMMA      &kp DOT       &kp FSLH
-                            &lt MOUSE TAB  &lt NAV BSPC  &lt SYM ESC   &lt MEDIA RET  &lt NUM SPACE  &lt FUN DEL
+                            &lt MOUSE TAB  &lt NAV BSPC  &lt SYM ESC   &lt MEDIA DEL  &lt NUM SPACE  &lt FUN RET
             >;
         };
 
