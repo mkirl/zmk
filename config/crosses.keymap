@@ -70,10 +70,10 @@
         mouse_layer {
             display-name = "Mouse";
             bindings = <
-&trans     &trans          &mmv MOVE_UP    &trans           &trans          &trans  &trans    &trans     &trans    &trans
-&trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans          &trans  &kp RSFT  &kp RCTRL  &kp RALT  &kp RGUI
-&trans     &trans          &trans          &trans           &trans          &trans  &trans    &trans     &trans    &trans
-           &mkp LCLK       &mkp RCLK       &mkp MCLK                        &trans  &trans    &trans
+&trans     &trans     &trans     &trans     &trans    &trans  &trans    &trans     &trans    &trans
+&mkp LCLK  &mkp RCLK  &mkp MCLK  &mkp MB4   &mkp MB5  &trans  &kp RSFT  &kp RCTRL  &kp RALT  &kp RGUI
+&trans     &trans     &trans     &trans     &trans    &trans  &trans    &trans     &trans    &trans
+           &mkp LCLK  &mkp RCLK  &mkp MCLK            &trans  &trans    &trans
             >;
         };
 
