@@ -80,7 +80,7 @@
             display-name = "Mouse";
             bindings = <
 &trans     &trans     &trans     &trans     &trans    &trans  &trans    &trans     &trans    &trans
-&trans     &mkp RCLK  &mkp MCLK  &mkp LCLK  &mkp MB4  &trans  &kp RSFT  &kp RCTRL  &kp RALT  &kp RGUI
+&mkp LCLK  &mkp RCLK  &mkp MCLK  &mkp MB4   &mkp MB5  &trans  &kp RSFT  &kp RCTRL  &kp RALT  &kp RGUI
 &trans     &trans     &trans     &trans     &trans    &trans  &trans    &trans     &trans    &trans
            &mkp RCLK  &mkp MCLK  &mkp LCLK            &trans  &trans    &trans
             >;
@@ -109,10 +109,10 @@
         sym_layer {
             display-name = "Sym";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &as LBRC LBKT  &as CARET N6   &as PRCNT N5  &as DLLR N4  &as PIPE BSLH
-&trans  &trans  &trans  &trans  &trans  &as RBRC RBKT  &as LBRC LBKT  &as RBRC RBKT &as LPAR N9  &as RPAR N0
-&trans  &trans  &trans  &trans  &trans  &kp MINUS      &as EXCL N1    &as AT N2     &as HASH N3  &as ASTRK N8
-                &trans  &trans  &trans  &kp TILDE      &as DQT SQT    &as AMPS N7
+&trans  &trans  &trans  &trans  &trans  &as LBKT LBRC  &as N6 CARET   &as N5 PRCNT  &as N4 DLLR  &as BSLH PIPE
+&trans  &trans  &trans  &trans  &trans  &as RBKT RBRC  &as LBKT LBRC  &as RBKT RBRC &as N9 LPAR  &as N0 RPAR
+&trans  &trans  &trans  &trans  &trans  &kp MINUS      &as N1 EXCL    &as N2 AT     &as N3 HASH  &as N8 ASTRK
+                &trans  &trans  &trans  &kp TILDE      &as SQT DQT    &as N7 AMPS
             >;
         };
 
