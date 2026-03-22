@@ -109,8 +109,8 @@
         sym_layer {
             display-name = "Sym";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &as LBKT LBRC  &as N6 CARET   &as N5 PRCNT  &as N4 DLLR  &as BSLH PIPE
-&trans  &trans  &trans  &trans  &trans  &as RBKT RBRC  &as LBKT LBRC  &as RBKT RBRC &as N9 LPAR  &as N0 RPAR
+&trans  &trans  &trans  &trans  &trans  &as LBRC LBKT  &as N6 CARET   &as N5 PRCNT  &as N4 DLLR  &as BSLH PIPE
+&trans  &trans  &trans  &trans  &trans  &as RBRC RBKT  &as LBKT LBRC  &as RBKT RBRC &as N9 LPAR  &as N0 RPAR
 &trans  &trans  &trans  &trans  &trans  &kp MINUS      &as N1 EXCL    &as N2 AT     &as N3 HASH  &as N8 ASTRK
                 &trans  &trans  &trans  &kp TILDE      &as SQT DQT    &as N7 AMPS
             >;
