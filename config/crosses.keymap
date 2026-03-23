@@ -45,6 +45,13 @@
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31 32>;
             hold-trigger-on-release;
         };
+
+        pipe_bslh: pipe_bslh {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp PIPE>, <&kp BSLH>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
@@ -109,7 +116,7 @@
         sym_layer {
             display-name = "Sym";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &kp LBKT   &kp CARET  &kp PRCNT  &kp DLLR   &kp PIPE
+&trans  &trans  &trans  &trans  &trans  &kp LBKT   &kp CARET  &kp PRCNT  &kp DLLR   &pipe_bslh
 &trans  &trans  &trans  &trans  &trans  &kp RBKT   &kp LBRC   &kp RBRC   &kp LPAR   &kp RPAR
 &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp EXCL   &kp AT     &kp HASH   &kp ASTRK
                 &trans  &trans  &trans  &kp TILDE  &kp DQT    &kp AMPS
